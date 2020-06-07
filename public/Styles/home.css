@@ -1,0 +1,114 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79; 
+  }
+
+#page-home header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#page-home .content {
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-home {
+   background: url('../assets/home-background.svg') no-repeat;
+   height: 100vh;
+   background-position: 35vw bottom;
+}
+
+#page-home header a span {
+  background-image: url(../assets/log-in.svg);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin-right: 15px;
+
+}
+#page-home header a {
+    display: flex;
+    color:var(--title-color);
+    font-weight: 700;
+    text-decoration:none;
+
+}
+#page-home main {
+    max-width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+}
+
+#page-home main h1 {
+    color:var(--title-color);
+    font-size: 60px;
+
+
+}
+h1, h2, h3, h4, h4, h5 {
+    color:var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+}
+#page-home p {
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 25px;
+
+
+}
+#page-home main a {
+    width: 100%;
+    max-width: 360px;
+    height:72px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    display:flex;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: bold;
+    color:white;
+    transition: 400ms;
+
+}
+#page-home main a:hover {
+    background-color: #2fb86e;
+ 
+}
+#page-home main a span {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0,0, 0.10);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page-home main a span::after {
+    content: "";
+    background-image: url('../assets/search.svg') ;
+    height: 20px;
+    width: 20px;
+
+}
+#page-home main a strong {
+    text-align: center;
+    flex: 1;
+
+}

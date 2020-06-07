@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+
+{% block title %}
+<title>Ecoleta</title>
+{% endblock title %}
+
+<link rel="stylesheet" href="/Styles/main.css">
+<link rel="stylesheet" href="/Styles/responsive.css">
+{% block styles %}
+{% endblock styles %}
+
+</head>
+<Body>
+   <div id="{{pageId}}">
+       {% block content %}
+       {% endblock content %}
+   </div>
+   
+{% block modal %}
+{% endblock modal %}
+
+{% block scripts %}
+{% endblock scripts %}
+</Body>
+</html>
