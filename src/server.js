@@ -30,7 +30,7 @@ server.get("/create-point", (req, res) => {
   return res.render("create-point.njk")
 })
 
-server.post("/savepoint.njk", (req, res) => {
+server.post("/savepoint", (req, res) => {
 
   const query = `
     INSERT INTO places (
