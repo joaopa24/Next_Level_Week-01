@@ -39,7 +39,7 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
     ```shell
     npm start
     ```
-    
+ <br>   
  ## ℹ️ Resultados:
  
  ![TeladeInicio](./public/assets/telas&Gifs/TelaInicio.PNG)
