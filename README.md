@@ -16,6 +16,7 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 - [NodeJS](https://nodejs.org/)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 - [SQLite](https://www.sqlite.org/index.html)
 
 ## 💻 Como executar:
@@ -23,7 +24,7 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
 1.  **Clone o projeto.**
 
     ```shell
-    git clone 
+    git clone https://github.com/joaopa12/Next_Level_Week-01
     ```
 
 2.  **Instalação**
