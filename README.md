@@ -15,7 +15,7 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 - [NodeJS](https://nodejs.org/)
-- [JSON](https://www.json.org/json-pt.html)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [SQLite](https://www.sqlite.org/index.html)
 
 ## 💻 Como executar:
