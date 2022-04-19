@@ -3,6 +3,7 @@ const sqlite3 = require("sqlite3").verbose()
 const db = new sqlite3.Database("./src/database/database.db")
 
 module.exports = db
+
 db.serialize(() => {
   db.run(`
      CREATE TABLE IF NOT EXISTS places (
@@ -30,16 +31,17 @@ db.serialize(() => {
  items
     ) VALUES (?,?,?,?,?,?,?);
 `
-  const values = [
-    "https://www.artesanatoereciclagem.com.br/wp-content/uploads/2013/08/Como-fazer-papel-reciclado-caseiro-04.jpg",
-    "Papersider",
-    "Guilherme Gemballa , Jardim América",
-    "N° 260",
-    "Santa Catarina",
-    "Rio do sul",
-    "Resíduos EletrÔnicos, Lâmpadas"
-  ]
-
+  
+ // const values = [
+   // "https://www.artesanatoereciclagem.com.br/wp-content/uploads/2013/08/Como-fazer-papel-reciclado-caseiro-04.jpg",
+  //  "Papersider",
+   // "Guilherme Gemballa , Jardim América",
+  //  "N° 260",
+  //  "Santa Catarina",
+  //  "Rio do sul",
+ //   "Resíduos EletrÔnicos, Lâmpadas"
+  //]
+  
   function afterInsertData(err) {
     if (err) {
       return console.log(err)
@@ -51,13 +53,13 @@ db.serialize(() => {
 
   //db.run(query, values, afterInsertData)
 
-  // db.run(`DELETE FROM places WHERE id = ?`, [28], function (err) {
-  //if (err) {
-  //return console.log(err)
-  //}
+  db.run(`DELETE FROM places WHERE id = ?`, [91], function (err) {
+  if (err) {
+  return console.log(err)
+  }
 
-  //console.log("Registros deletados com sucesso!")
-  //})
+  console.log("Registros deletados com sucesso!")
+  })
 
   db.all(`SELECT * FROM places`, function (err, rows) {
     if (err) {
@@ -71,5 +73,3 @@ db.serialize(() => {
 
 
 })
-
-
