@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="public/assets/icones/logo.svg">
+  <img src="public/assets/logo.svg">
 </p>
 
 ## ♻️ Sobre o projeto:
@@ -42,7 +42,11 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
     
  ## ℹ️ Resultados:
  
- ![TeladeInicio](./public/assets/telas&Gifs/TelaInicio.PNG) 
+ ![TeladeInicio](./public/assets/telas&Gifs/TelaInicio.PNG)
+ ![Cards](./public/assets/telas&Gifs/Cards.gif)
+ ![Cadastro](./public/assets/telas&Gifs/Cadastro.gif) 
+ ![PontosColeta](./public/assets/telas&Gifs/PontosColeta.PNG)
+ ![Resultados](./public/assets/telas&Gifs/Resultados.PNG)  
 
 ## 📝 License
 
@@ -51,5 +55,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <h4 align="center">
-    Desenvolvido por <a href="https://www.linkedin.com/in/gabriel-jony/">Gabriel Jony</a>
+    Desenvolvido por <a href="https://www.linkedin.com/in/joaopa51/">João Lucas</a>
 </h4>
