@@ -42,7 +42,7 @@ O Ecoleta é um projeto sobre a criação e localização de pontos de coleta de
     
  ## ℹ️ Resultados:
  
- ![TeladeInicio](./public/assets/telas&Gifs/TelaInicio.png) 
+ ![TeladeInicio](./public/assets/telas&Gifs/TelaInicio.PNG) 
 
 ## 📝 License
 
